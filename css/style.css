@@ -70,3 +70,26 @@ select {
     background-position-x: calc(100% - 10px);
     background-position-y: center;
 }
+
+footer {
+    background-color: rgb(38, 38, 38);
+    padding: 20px;
+    text-align: center;
+    width: 82%;
+    margin: auto;
+}
+
+.picture {
+    width: 160px;
+}
+
+.description {
+    color: white;
+    display: inline-block;
+    max-width: 40%;
+}
+
+.description p,
+.description h3 {
+    margin-bottom: 20px;
+}
